@@ -3,19 +3,20 @@ from time import sleep
 
 led = LED(17)
 
-led.on()
-sleep(3)
+def K():
+	led.on()
+	sleep(3)
 
-led.off()
-sleep(1)
+	led.off()
+	sleep(1)
 
-led.on()
-sleep(1)
+	led.on()
+	sleep(1)
 
-led.off()
-sleep(1)
+	led.off()
+	sleep(1)
 
-led.on()
-sleep(3)
+	led.on()
+	sleep(3)
 
-led.off()
+	led.off()
