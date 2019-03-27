@@ -1,5 +1,6 @@
 from gpiozero import LED
 from time import sleep
 
-led.off()
-sleep(1)
+def Espace():
+	led.off()
+	sleep(1)

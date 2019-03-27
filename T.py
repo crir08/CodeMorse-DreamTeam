@@ -3,8 +3,9 @@ from time import sleep
 
 led = LED(17)
 
-led.on()
-sleep(3)
-led.off()
+def T():
+	led.on()
+	sleep(3)
+	led.off()
 
 
