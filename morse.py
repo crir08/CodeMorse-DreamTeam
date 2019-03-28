@@ -25,5 +25,10 @@ from X.py import X()
 from Z.py import Z()
 from Espace.py import Espace()
 
-print ("Veuillez choisir un mot")
-mot=input()
+dictionnaireFonctions = {'a': A, 'b': B, 'c': C, 'd': D, 'e': E, 'f': F, 'g': G, 'h': H, 'i': I, 'j': J, 'k': K, 'l': L, 'm': M, 'n': N, 'o': O, 'p': P, 'q': Q, 'r': R, 's': S, 't': T, 'u': U, 'v': V, 'w': W, 'x': X, 'y': Y, 'z': Z, ' ': Espace}
+
+message = input('Que voulez-vous dire ?')
+
+for character in message:
+	fonction = dictionnaireFonctions.get(character)
+	fonction()
