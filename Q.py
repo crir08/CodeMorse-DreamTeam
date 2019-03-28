@@ -4,7 +4,7 @@ from time import sleep
 
 
 
-def Q();
+def Q():
 	led = LED(17)
 	
 	led.on()
