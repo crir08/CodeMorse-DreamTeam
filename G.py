@@ -5,7 +5,7 @@ from time import sleep
 
 
 def G():
-	led=LED(17)
+    led=LED(17)
     led.on()
     sleep(3)
     led.off()
