@@ -2,7 +2,7 @@ from gpiozero import LED
 from time import sleep
 
 
-def ():
+def J():
 	led = LED(17)
 
 	led.on()
