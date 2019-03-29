@@ -30,5 +30,5 @@ dictionnaireFonctions = {'a': A, 'b': B, 'c': C, 'd': D, 'e': E, 'f': F, 'g': G,
 message = input('Que voulez-vous dire ?')
 
 for character in message:
-	fonction = dictionnaireFonctions.get(character)
+	fonction = dictionnaireFonctions.get(character.lower())
 	fonction()
