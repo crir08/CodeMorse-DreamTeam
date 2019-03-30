@@ -27,3 +27,4 @@ def P():
 	sleep(1)
 
 	led.off()
+	sleep(1)

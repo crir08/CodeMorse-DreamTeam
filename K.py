@@ -21,3 +21,4 @@ def K():
 	sleep(3)
 
 	led.off()
+	sleep(1)

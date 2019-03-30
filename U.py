@@ -14,3 +14,4 @@ def U():
 	led.on()
 	sleep(3)
 	led.off()
+	sleep(1)
