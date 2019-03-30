@@ -21,4 +21,4 @@ def O():
 	sleep(3)
 
 	led.off()
-	sleep(1)
+	sleep(3)

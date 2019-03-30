@@ -15,4 +15,4 @@ def N():
 	sleep(1)
 
 	led.off()
-	sleep(1)
+	sleep(3)
