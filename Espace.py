@@ -4,4 +4,4 @@ from time import sleep
 def Espace():
 	led = LED(17)
 	led.off()
-	sleep(1)
+	sleep(6)
